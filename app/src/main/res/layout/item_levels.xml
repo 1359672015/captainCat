@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+<TextView
+    android:background="@color/blue2"
+   android:gravity="center"
+    android:id="@+id/tv_title"
+    android:layout_centerInParent="true"
+    android:textColor="@color/black"
+    android:text="大唐剑影\n大唐剑影"
+    android:textSize="18dp"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints" />
+    <View
+
+        android:id="@+id/v_chosen"
+        android:background="#9AFEFFE0"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

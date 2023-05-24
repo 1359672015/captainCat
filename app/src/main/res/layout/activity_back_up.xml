@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#373434"
+    android:layout_height="match_parent"
+    tools:context=".Ui.Activity.BackUpActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#93747167"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:src="@drawable/back_menu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="符咒装备"
+            android:textColor="@color/blue0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvKnow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/icon_tips"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_menu"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vGemI"
+        android:visibility="gone"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="36dp"
+        android:background="@color/yellow6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/ivGemI"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:background="#55715C5C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <View
+        android:id="@+id/vGemII"
+        android:visibility="gone"
+        android:background="@color/yellow6"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:layout_constraintStart_toStartOf="@+id/ivGemII"
+        app:layout_constraintTop_toTopOf="@+id/ivGemII"/>
+
+    <ImageView
+        android:id="@+id/ivGemII"
+        android:background="#5D715C5C"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivGemI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivGemI"
+        app:layout_constraintTop_toTopOf="@+id/ivGemI" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTookII"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/btnTookI"
+        android:layout_width="50dp"
+        android:textSize="12dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="卸下"
+        app:layout_constraintStart_toStartOf="@+id/ivGemI"
+        app:layout_constraintTop_toBottomOf="@+id/ivGemI" />
+
+    <Button
+        android:id="@+id/btnLookI"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="详情"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTookI"
+        app:layout_constraintTop_toBottomOf="@+id/ivGemI" />
+
+    <Button
+        android:id="@+id/btnTookII"
+        android:layout_width="50dp"
+        android:textSize="12dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="卸下"
+        app:layout_constraintStart_toStartOf="@+id/ivGemII"
+        app:layout_constraintTop_toBottomOf="@+id/ivGemII" />
+
+    <Button
+        android:id="@+id/btnLookII"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:text="详情"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/btnTookII"
+        app:layout_constraintTop_toBottomOf="@+id/ivGemII" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="装备槽1"
+        app:layout_constraintBottom_toTopOf="@+id/ivGemI"
+        app:layout_constraintEnd_toEndOf="@+id/ivGemI"
+        app:layout_constraintStart_toStartOf="@+id/ivGemI" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="装备槽2"
+        app:layout_constraintBottom_toTopOf="@+id/ivGemII"
+        app:layout_constraintEnd_toEndOf="@+id/ivGemII"
+        app:layout_constraintStart_toStartOf="@+id/ivGemII" />
+</androidx.constraintlayout.widget.ConstraintLayout>

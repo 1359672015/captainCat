@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Mine">
+
+    <fragment
+        android:id="@+id/nav_Mine"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/Mine"
+        tools:layout="@layout/controller" />
+    <fragment
+        android:id="@+id/nav_bag"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/bag"
+        tools:layout="@layout/controller" />
+    <fragment
+        android:id="@+id/nav_book"
+        android:name="com.example.captaincat.Fragment.BookFragment"
+        android:label="@string/book"
+        tools:layout="@layout/controller" />
+    <fragment
+        android:id="@+id/nav_friends"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/friends"
+        tools:layout="@layout/controller" />
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/post"
+        tools:layout="@layout/controller" />
+    <fragment
+    android:id="@+id/nav_setting"
+    android:name="com.example.captaincat.Fragment.BagFragment"
+    android:label="@string/bag"
+    tools:layout="@layout/controller" />
+
+
+
+    <fragment
+        android:id="@+id/nav_manual"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/bag"
+        tools:layout="@layout/controller" />
+
+    <fragment
+        android:id="@+id/nav_more"
+        android:name="com.example.captaincat.Fragment.BagFragment"
+        android:label="@string/bag"
+        tools:layout="@layout/controller" />
+</navigation>

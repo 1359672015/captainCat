@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Ui.Activity.LoginActivity">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:background="@drawable/changing_night_sky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_mine"
+            android:background="@color/shadow2"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_margin="10dp"
+                android:src="@drawable/cat1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:id="@+id/tv_head"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"
+                android:text="璀寒 ♂ \nLv.6"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_main"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/gradient_round1"
+                android:gravity="center"
+                android:text="主线战斗"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn_challenge"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_below="@+id/btn_main"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/gradient_round2"
+                android:gravity="center"
+                android:text="挑战模式"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl_institute"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:background="@color/green3"
+                android:textSize="16dp"
+                android:text="背 包"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_bag"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/yellow8"
+                android:textSize="16dp"
+                android:text="商  店"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_store"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+            <Button
+                android:background="@color/blue1"
+                android:textSize="16dp"
+                android:text="技 能"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_iron"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:background="@color/green3"
+                android:textSize="16dp"
+                android:text="情  报"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_book"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+            <Button
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@color/yellow8"
+                android:textSize="16dp"
+                android:text="操作说明"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_teach"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+            <Button
+                android:visibility="gone"
+                android:background="@color/blue1"
+                android:textSize="16dp"
+                android:text="设  置"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_setting"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+            <Button
+                android:layout_marginTop="30dp"
+                android:background="@color/white2"
+                android:textSize="16dp"
+                android:text="退  出"
+                android:textColor="@color/text3"
+                android:id="@+id/btn_more"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="right"
+            android:id="@+id/rl_luoming"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/car_julian"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:id="@+id/ivJulian"
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:rotation="-2"
+                android:src="@drawable/car_julian" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/ivJulian"
+                android:layout_alignEnd="@id/ivJulian"
+                android:layout_marginTop="-20dp"
+                android:background="@color/white2"
+                android:text="点击获取情报"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

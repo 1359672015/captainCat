@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--3个层的顺序即为显示时的叠加顺序-->
+    <!--背景颜色-->
+    <item android:id="@android:id/background">
+        <shape>
+            <size android:height="5dp"/>
+            <corners android:radius="5dp"/>
+            <solid android:color="#BC042F44"/>
+        </shape>
+    </item>
+
+
+    <!--二级进度条颜色-->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <size android:height="5dp"/>
+                <corners android:radius="5dp"/>
+                <solid android:color="#2C6BE1"/>
+            </shape>
+        </clip>
+    </item>
+    <!--一级进度条颜色-->
+    <item android:id="@android:id/progress">
+        <clip
+            android:gravity="left">
+            <shape>
+                <size android:height="5dp"/>
+                <corners android:radius="5dp"/>
+                <solid android:color="#515CF5"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

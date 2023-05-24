@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4DEB7">
+    <RelativeLayout
+        android:id="@+id/topBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:src="@drawable/back_menu"
+            android:layout_width="40dp"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我的宠物"
+            android:textColor="@color/grey4"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/petPhotoImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/topBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:background="#2887CEFA"
+        android:padding="30dp"
+        android:src="@drawable/elf_tomato" />
+
+    <TextView
+        android:id="@+id/petStateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPetName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="Happy and healthy"
+        android:textColor="#222222"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvPetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/petPhotoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:drawableRight="@mipmap/icon_input"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="kau"
+        android:textColor="#222222"
+        android:textSize="28sp" />
+
+    <ProgressBar
+        android:id="@+id/pbEnergy"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/petStateTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:max="100"
+        android:maxHeight="5dp"
+        android:progress="50" />
+
+    <TextView
+        android:id="@+id/moodTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pbEnergy"
+        android:layout_alignBottom="@+id/pbEnergy"
+        android:layout_toStartOf="@+id/pbEnergy"
+        android:text="🥗 体力值："
+        android:textColor="#222222"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/pbMood"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/moodTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:max="100"
+        android:maxHeight="5dp"
+        android:progress="75" />
+
+    <TextView
+        android:id="@+id/energyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pbMood"
+        android:layout_alignBottom="@+id/pbMood"
+        android:layout_toStartOf="@+id/pbMood"
+        android:text="❤ 心情值："
+        android:textColor="#222222"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pbMood"
+        android:layout_alignTop="@+id/btnPlay"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="87dp"
+        android:background="@color/brown1"
+        android:text="🧀 喂食 "
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pbMood"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/brown1"
+        android:text="🏐 玩耍 "
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

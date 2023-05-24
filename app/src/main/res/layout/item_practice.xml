@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/aa_gradient2"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_weight="1.2"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="七脉神剑 : Lv.5"
+            android:textColor="#DE9999"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#D84315"
+            android:text="当前:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_info"
+            android:text="伤害:10\n速度:10\n补给:1.3/s\n初值:35"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#D84315"
+            android:text="下一级:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_next"
+            android:text="伤害:10\n速度:10\n补给:1.3/s\n初值:35"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_up_level"
+            android:background="@drawable/gradient4"
+            android:text="升级"
+            android:layout_width="60dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</LinearLayout>

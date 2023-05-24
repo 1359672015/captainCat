@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Mine"
+            android:icon="@drawable/cat1"
+            android:title="@string/Mine" />
+        <item
+            android:id="@+id/nav_bag"
+            android:icon="@drawable/pi"
+            android:title="@string/bag" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/orc_strong"
+            android:title="@string/book" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/dog"
+            android:title="@string/friends" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/store"
+            android:title="@string/post" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/setting" />
+
+        <item
+            android:id="@+id/nav_manual"
+            android:icon="@drawable/mb_qigong"
+            android:title="@string/manual" />
+        <item
+            android:icon="@drawable/coffee"
+            android:id="@+id/nav_more"
+            android:title="@string/more" />
+    </group>
+</menu>

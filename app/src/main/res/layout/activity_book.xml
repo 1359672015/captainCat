@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#F5DEB3"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.Activity.BookActivity">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/text1"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:src="@drawable/back_menu"
+            android:layout_width="40dp"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tv_title"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/grey4"
+            android:gravity="center"
+            android:text="朱利安的情报"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/car_julian"
+        android:id="@+id/iv"
+        android:padding="15dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp"/>
+
+       <TextView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="-10dp"
+           android:background="#87CEFA"
+           android:gravity="center"
+           android:rotation="45"
+           android:rotationX="-58"
+           android:text="  " />
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/grey3"
+        android:background="@drawable/aa_gradient_blude"
+        android:text="长官,以下是朱利安所探测到的敌人的情报, 充分了解敌人的特点以及战斗风格,以便更好地打败他们。"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+   </LinearLayout>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/aa_gradient1.xml" value="0.1755" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/aa_gradient2.xml" value="0.165" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/aa_gradient_blude.xml" value="0.17" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/changing_day_sky.xml" value="0.252" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient4.xml" value="0.1745" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient_5.xml" value="0.1745" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient_button1.xml" value="0.1745" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient_planet.xml" value="0.252" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient_planet2.xml" value="0.136" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable-v24/gradient_round2.xml" value="0.1965" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable/pb_my_life.xml" value="0.147" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable/pb_pet_magic.xml" value="0.147" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable/progressbar" value="0.1965" />
+        <entry key="..\:/Android/cato/app/src/main/res/drawable/progressbar.xml" value="0.147" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_airwar.xml" value="0.176" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_book.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_choose_fires.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_get_pet.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_my_pet.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_myinfo.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_pet.xml" value="0.176" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_pratice.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_store.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/bottom_feed.xml" value="0.2" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/controller.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_base.xml" value="0.2" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_base2.xml" value="0.22239583333333332" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_buy.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_message.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_orc.xml" value="0.14947916666666666" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/dialog_storyhtml.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_dialog.xml" value="0.2" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_fireicon.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_food.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_levels.xml" value="0.1213768115942029" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_menu.xml" value="0.22239583333333332" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_objicon.xml" value="0.136" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_orc.xml" value="0.20364583333333333" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_pet.xml" value="0.264" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/item_practice.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/layout_slide_view.xml" value="0.22239583333333332" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/main_map.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/myconnon.xml" value="0.536" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o1.xml" value="0.8800000000000001" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o10.xml" value="0.536" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o2.xml" value="0.72" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o3.xml" value="0.6" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o4.xml" value="0.6" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o5.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o6.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o7.xml" value="0.536" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o8.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/o9.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of1.xml" value="0.4" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of2.xml" value="0.2421875" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of3.xml" value="0.8800000000000001" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of4.xml" value="0.536" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of5.xml" value="0.8" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of6.xml" value="1.0" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of7.xml" value="0.536" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of8.xml" value="0.72" />
+        <entry key="..\:/Android/cato/app/src/main/res/layout/of9.xml" value="0.4" />
+        <entry key="..\:/CaptainCat/app/src/main/res/layout/activity_choose_fires.xml" value="0.2015625" />
+        <entry key="..\:/CaptainCat/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/CaptainCat/app/src/main/res/layout/activity_main_menu.xml" value="0.1" />
+        <entry key="..\:/CaptainCat/app/src/main/res/layout/content_main.xml" value="0.2046875" />
+        <entry key="..\:/CaptainCat/app/src/main/res/layout/main_map.xml" value="0.2046875" />
+        <entry key="..\:/Demo/cato/app/src/main/res/drawable-v24/aa_gradient1.xml" value="0.1285" />
+        <entry key="..\:/Demo/cato/app/src/main/res/drawable-v24/aa_gradient2.xml" value="0.1875" />
+        <entry key="..\:/Demo/cato/app/src/main/res/drawable-v24/gradient_planet.xml" value="0.1285" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_airwar.xml" value="0.26458333333333334" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_bag.xml" value="0.15338042381432895" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_base.xml" value="0.26458333333333334" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_book.xml" value="0.16" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_myinfo.xml" value="0.31666666666666665" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/activity_store.xml" value="0.31666666666666665" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/controller.xml" value="0.18" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/dialog_common.xml" value="0.33" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/dialog_message.xml" value="0.31666666666666665" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/dialog_message_character.xml" value="0.25" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/dialog_message_orc.xml" value="0.3140625" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/dialog_talk.xml" value="0.3140625" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/item_toolbar.xml" value="0.14" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/layout.xml" value="0.31666666666666665" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/layout_slide_view.xml" value="0.25" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/main_map.xml" value="0.1" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf1.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf2.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf3.xml" value="0.1" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf4.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf5.xml" value="0.18" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/mf6.xml" value="0.13" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/myconnon.xml" value="0.26458333333333334" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o1.xml" value="0.18" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o2.xml" value="0.18" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o3.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o4.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o5.xml" value="0.15" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o6.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o7.xml" value="0.15" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/o8.xml" value="0.22" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of1.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of2.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of3.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of4.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of5.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of6.xml" value="0.25" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of7.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of8.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/layout/of9.xml" value="0.29891304347826086" />
+        <entry key="..\:/Demo/cato/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2795" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

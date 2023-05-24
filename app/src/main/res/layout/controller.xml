@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:background="@color/shadow"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/controller"
+    android:layout_width="match_parent"
+    android:layout_height="560px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rlLife"
+        android:paddingLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生命值:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_blood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text1"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text1"
+            android:text="100"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/pb_blood"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text1"
+            android:layout_alignBottom="@id/text1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/text1"
+            android:max="100"
+            android:maxHeight="3dp"
+            android:minHeight="3dp" />
+
+        <TextView
+            android:id="@+id/tvStrong"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/pb_blood"
+            android:text="强化：0s"
+            android:textColor="#FFA96D" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingLeft="50dp"
+        android:layout_below="@+id/rlLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="魔法值:"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_magic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text2"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/text2"
+            android:text="100"
+            android:textColor="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/pb_magic"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text2"
+            android:layout_alignBottom="@id/text2"
+            android:layout_toRightOf="@id/text2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:max="100"
+            android:maxHeight="4dp"
+            android:minHeight="4dp" />
+
+        <TextView
+            android:id="@+id/tvShield"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/text2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/pb_magic"
+            android:text="护盾：0"
+            android:textColor="#98FDFF" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/info_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jvWay"
+        android:layout_centerHorizontal="true">
+
+
+
+        <LinearLayout
+            android:id="@+id/bulletll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:src="@drawable/ic_1"
+                android:id="@+id/ib_fire_i"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/zero" />
+
+            <ImageButton
+                android:src="@drawable/ic_1"
+                android:id="@+id/ib_fire_ii"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/zero" />
+
+            <ImageButton
+                android:src="@drawable/ic_1"
+                android:id="@+id/ib_fire_iii"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/zero" />
+
+            <ImageButton
+                android:src="@drawable/ic_1"
+                android:id="@+id/ib_fire_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@color/zero" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fire_i"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_fire_ii"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_fire_iii"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_fire_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <Button
+    android:gravity="center"
+    android:id="@+id/btn_StopOrContinue"
+    android:background="@drawable/gradient_button2"
+    android:text="暂停"
+    android:layout_alignTop="@+id/info_bar"
+    android:layout_alignParentRight="true"
+    android:textSize="14dp"
+    android:layout_margin="14dp"
+    android:textColor="@color/white"
+    android:layout_width="50dp"
+    android:layout_height="45dp"/>
+
+    <com.example.captaincat.Widget.JoystickView
+        android:id="@+id/jvWay"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/rota_L"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/rota_R"
+        android:layout_toLeftOf="@+id/rota_R"
+        android:background="@drawable/gradient3"
+        android:gravity="center"
+        android:rotation="180"
+        android:text="➡"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnShield"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/rota_L"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/rota_L"
+        android:background="@mipmap/icon_shield"
+        android:gravity="bottom|right"
+        android:text="护盾"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnStrong"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/btnShield"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/btnShield"
+        android:background="@mipmap/icon_file" 
+        android:gravity="bottom|right"
+        android:text="强化"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnLifeAdd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/btnStrong"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/btnStrong"
+        android:background="@mipmap/icon_life"
+        android:gravity="bottom|right"
+        android:text="补血"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/rota_R"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/gradient3"
+        android:gravity="center"
+        android:text="➡"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+<TextView
+    android:background="@color/purple_200"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"/>
+</RelativeLayout>

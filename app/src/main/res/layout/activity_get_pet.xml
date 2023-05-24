@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="#FFFFF5EE">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:src="@drawable/picture_icon_back_arrow"
+            android:layout_width="40dp"
+            android:paddingRight="24dp"
+            android:paddingTop="17dp"
+            android:paddingBottom="17dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="领养中心"
+            android:textColor="#B3000000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+<TextView
+    android:textColor="@color/button1"
+    android:layout_marginTop="20dp"
+    android:text="选择一只您喜欢的精灵做你的宠物吧!"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerViewPet"
+    android:layout_width="match_parent"
+    tools:listitem="@layout/item_pet"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+        />
+
+    <LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_weight="1">
+        <TextView
+            android:textColor="@color/br1"
+            android:text="当前选择："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/ivNowSel"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+    <TextView
+    android:id="@+id/textViewNamePet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="为宠物起个名字吧！"
+    android:textColor="#BDBDBD"
+    android:textSize="18sp"
+    android:layout_margin="10dp"/>
+
+    <EditText
+    android:id="@+id/editTextPetName"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:hint="输入名字"
+    android:background="#FEFAFA"
+    android:textColorHint="#8A8A8A"
+    android:textColor="#8A8A8A"
+    android:inputType="text"
+    android:maxLines="1"
+    android:maxLength="10"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:layout_marginTop="8dp"/>
+
+    <Button
+    android:id="@+id/buttonConfirmAdopt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="确认领养"
+    android:textColor="#FFFFFF"
+    android:background="#FE5B5E"
+    android:layout_marginTop="38dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+        android:layout_marginBottom="40dp"
+    android:padding="16dp" />
+    </LinearLayout>

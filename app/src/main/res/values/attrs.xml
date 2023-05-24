@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="ItemToolbar">
+        <attr name="isShowLeftIcon" format="boolean"/>
+        <attr name="isShowRightIcon" format="boolean"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="title" format="string"/>
+    </declare-styleable>
+
+    <!-- 自定义上边圆角，下边直角的imageView -->
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageViewByXfermode">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <declare-styleable name="ItemMineView">
+        <attr name="item_icon" format="reference"/>
+        <attr name="item_text" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="circleProgressBar">
+        <attr name="circleWidth" format="dimension" />
+        <attr name="betaAngle" format="integer" />
+        <attr name="firstColor" format="color" />
+        <attr name="secondColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="imageText">
+        <attr name="image" format="integer" />
+        <attr name="text" format="integer" />
+        <attr name="textColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="StickyScrollView">
+        <attr name="stuckShadowHeight" format="dimension" />
+        <attr name="stuckShadowDrawable" format="reference" />
+    </declare-styleable>
+    <!--签到-->
+    <declare-styleable name="SignView">
+        <attr name="ringColors" format="color" />
+        <attr name="ringSize" format="dimension" />
+        <attr name="ringprogressColor" format="color" />
+        <attr name="dotColor" format="color" />
+        <attr name="dotSize" format="dimension" />
+        <attr name="textProgressColor" format="color" />
+        <attr name="textProgressSize" format="dimension" />
+        <attr name="textPercentColor" format="color" />
+        <attr name="showProgressText" format="string" />
+        <attr name="texColor" format="color" />
+        <attr name="texSize" format="dimension" />
+        <attr name="texMarginSize" format="dimension" />
+        <attr name="setNumber" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SpecialProgress">
+        <attr name="special_progress_color" format="color"/>
+        <attr name="special_progress_background_color" format="color"/>
+        <attr name="special_progress_max_value" format="integer"/>
+        <attr name="special_progress_value" format="integer"/>
+
+        <attr name="special_pgrogress_margin_left_value" format="dimension"/>
+        <attr name="special_pgrogress_margin_right_value" format="dimension"/>
+
+        <attr name="special_text_color" format="color"/>
+        <attr name="special_text_size" format="dimension"/>
+        <attr name="special_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgress">
+        <attr name="horizontal_progress_color" format="color"/>
+        <attr name="horizontal_progress_background_color" format="color"/>
+        <attr name="horizontal_progress_max_value" format="integer"/>
+        <attr name="horizontal_progress_value" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SketchMapProgress">
+        <attr name="sketch_mat_progress_color" format="color"/>
+        <attr name="sketch_mat_progress_background_color" format="color"/>
+        <attr name="sketch_mat_progress_max_value" format="integer"/>
+        <attr name="sketch_mat_progress_value" format="integer"/>
+        <attr name="sketch_mat_progress_value_text_size" format="dimension"/>
+        <attr name="sketch_mat_progress_value_text_color" format="color"/>
+        <attr name="sketch_mat_text_color" format="color"/>
+        <attr name="sketch_mat_text" format="string"/>
+        <attr name="sketch_mat_text_size" format="dimension"/>
+        <attr name="sketch_mat_stroke_width" format="dimension"/>
+        <attr name="sketch_mat_text_marginTop" format="dimension"/>
+        <attr name="sketch_mat_stroke_round_cap" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalBarView">
+        <attr name="horizontalbarView_bar_height" format="dimension"/>
+        <attr name="horizontalbarView_bar_interval" format="dimension"/>
+        <attr name="horizontalbarView_left_text_color" format="color"/>
+        <attr name="horizontalbarView_bar_color" format="color"/>
+        <attr name="horizontalbarView_right_text_color" format="color"/>
+        <attr name="horizontalbarView_line_color" format="color"/>
+        <attr name="horizontalbarView_left_text_size" format="dimension"/>
+        <attr name="horizontalbarView_right_text_size" format="dimension"/>
+        <attr name="horizontalbarView_view_interval" format="dimension"/>
+        <attr name="horizontalbarView_line_top_and_bar_interval" format="dimension"/>
+        <attr name="horizontalbarView_right_text_margin" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="filled_text">
+        <attr name="filledText" format="string"></attr>
+        <attr name="fillTextSize" format="dimension"></attr>
+        <attr name="normalColor" format="color"></attr>
+        <attr name="fillColor" format="color"></attr>
+        <attr name="rowSpace" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean"/>
+        <attr name="ios" format="boolean"/>
+        <attr name="leftSwipe" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SideIndexBar">
+        <attr name="cpIndexBarTextSize" format="reference" />
+        <attr name="cpIndexBarNormalTextColor" format="reference" />
+        <attr name="cpIndexBarSelectedTextColor" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ScaleTabLayout">
+        <attr name="stl_unSelTextSize" format="dimension"/>
+        <attr name="stl_selTextSize" format="dimension"/>
+        <attr name="stl_unSelTextColor" format="color"/>
+        <attr name="stl_selTextColor" format="color"/>
+        <attr name="stl_tabSpacing" format="dimension"/>
+        <attr name="stl_leftMargin" format="dimension"/>
+        <attr name="stl_rightMargin" format="dimension"/>
+        <attr name="stl_isSelTextBold" format="boolean"/>
+        <attr name="stl_indicator_height" format="dimension"/>
+        <attr name="stl_indicator_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RecyclerViewBanner">
+        <attr name="rvb_interval" format="integer" />
+        <attr name="rvb_showIndicator" format="boolean" />
+        <attr name="rvb_indicatorSelectedSrc" format="color|reference" />
+        <attr name="rvb_indicatorUnselectedSrc" format="color|reference" />
+        <attr name="rvb_indicatorSize" format="dimension|reference" />
+        <attr name="rvb_indicatorSpace" format="dimension|reference" />
+        <attr name="rvb_indicatorMargin" format="dimension|reference" />
+        <attr name="rvb_indicatorGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="rvb_autoPlaying" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CollapsibleTextView">
+        <attr name="suffixColor" format="color"/>
+        <attr name="collapsedLines" format="integer"/>
+        <attr name="collapsedText" format="string"/>
+        <attr name="expandedText" format="string"/>
+        <attr name="suffixTrigger" format="boolean"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="WidgetSlideLayout">
+        <attr name="widget_slide_overlay_distance" format="dimension" />
+        <attr name="widget_disable_slider_refresh" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="WidgetMinVerticalMarginFrameLayout">
+        <attr name="widget_min_vertical_margin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="HistogramView">
+        <attr name="histogram_image" format="reference"/>
+        <attr name="histogram_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="VerticalTextView">
+        <attr name="vertical_shadow_bg" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_radius" format="dimension"/>
+        <attr name="riv_left_top_radius" format="dimension"/>
+        <attr name="riv_left_bottom_radius" format="dimension"/>
+        <attr name="riv__right_top_radius" format="dimension"/>
+        <attr name="riv_right_bottom_radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagnaIndicator">
+        <attr name="mid_indicatorSelectedSrc" format="color|reference" />
+        <attr name="mid_indicatorUnselectedSrc" format="color|reference" />
+        <attr name="mid_indicatorSize" format="dimension|reference" />
+        <attr name="mid_indicatorSpace" format="dimension|reference" />
+        <attr name="mid_indicatorMargin" format="dimension|reference" />
+        <attr name="mid_indicatorGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LikeNumTextView">
+        <attr name="likenum_textSize" format="float"></attr>
+        <attr name="likenum_textColor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TagCloudView">
+        <attr name="autoScrollMode">
+            <enum name="disable" value="0"/>
+            <enum name="decelerate" value="1"/>
+            <enum name="uniform" value="2"/>
+        </attr>
+        <attr name="manualScroll" format="boolean"/>
+        <attr name="radiusPercent" format="float"/>
+        <attr name="scrollSpeed" format="float"/>
+        <attr name="lightColor" format="color"/>
+        <attr name="darkColor" format="color"/>
+        <attr name="startAngleX" format="float"/>
+        <attr name="startAngleY" format="float"/>
+    </declare-styleable>
+
+    <attr name="course_detail_indictor_color" format="color"/>
+
+    <declare-styleable name="ImaginaryLineView">
+        <attr name="imaginarylineview_line_color" format="color"/>
+        <attr name="imaginarylineview_cirle_color" format="color"/>
+        <attr name="imaginarylineview_line_margin" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="alignOnlyOneLine" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RichEditText">
+        <!-- 是否显示视频标识图标 -->
+        <attr name="editor_show_video_mark" format="boolean"/>
+        <!-- 视频图标资源id -->
+        <attr name="editor_video_mark_resource_id" format="reference"/>
+        <!-- 是否显示gif标识图标 -->
+        <attr name="editor_show_gif_mark" format="boolean"/>
+        <!-- 是否显示长图标识 -->
+        <attr name="editor_show_long_image_mark" format="boolean"/>
+        <!-- 图片和视频圆角大小 -->
+        <attr name="editor_image_radius" format="dimension"/>
+        <!-- 正文中标题字体大小 -->
+        <attr name="editor_headline_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineHeightEditText">
+        <attr name="cursorColor" format="color"/>
+        <attr name="cursorHeight" format="dimension"/>
+        <attr name="cursorWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="QMUIRoundEditText">
+        <attr name="qmui_backgroundColor" />
+        <attr name="qmui_borderColor" />
+        <attr name="qmui_borderWidth" />
+        <attr name="qmui_isRadiusAdjustBounds" />
+        <attr name="qmui_radius" />
+        <attr name="qmui_radiusTopLeft" />
+        <attr name="qmui_radiusTopRight" />
+        <attr name="qmui_radiusBottomLeft" />
+        <attr name="qmui_radiusBottomRight" />
+    </declare-styleable>
+
+    <declare-styleable name="QMUIRoundTextView">
+        <attr name="qmui_backgroundColor" />
+        <attr name="qmui_borderColor" />
+        <attr name="qmui_borderWidth" />
+        <attr name="qmui_isRadiusAdjustBounds" />
+        <attr name="qmui_radius" />
+        <attr name="qmui_radiusTopLeft" />
+        <attr name="qmui_radiusTopRight" />
+        <attr name="qmui_radiusBottomLeft" />
+        <attr name="qmui_radiusBottomRight" />
+    </declare-styleable>
+
+    <declare-styleable name="SignInCountDownView">
+        <attr name="sicdv_text_color" format="color"/>
+        <attr name="sicdv_text" format="string"/>
+        <attr name="sicdv_text_size" format="dimension"/>
+        <attr name="sicdv_minute_text_color" format="color"/>
+        <attr name="sicdv_minute_text" format="string"/>
+        <attr name="sicdv_minute_text_size" format="dimension"/>
+        <attr name="sicdv_minute_width_height" format="dimension"/>
+        <attr name="sicdv_minute_width" format="dimension"/>
+        <attr name="sicdv_minute_height" format="dimension"/>
+        <attr name="sicdv_minute_bg_color" format="color"/>
+        <attr name="sicdv_minute_bg_round" format="dimension"/>
+        <attr name="sicdv_second_text_color" format="color"/>
+        <attr name="sicdv_second_text" format="string"/>
+        <attr name="sicdv_second_text_size" format="dimension"/>
+        <attr name="sicdv_second_width_height" format="dimension"/>
+        <attr name="sicdv_second_bg_color" format="color"/>
+        <attr name="sicdv_second_bg_round" format="dimension"/>
+        <attr name="sicdv_second_width" format="dimension"/>
+        <attr name="sicdv_second_height" format="dimension"/>
+        <attr name="sicdv_hegith_or_width" format="enum">
+            <!--wrap_content 自适应 equality height 和width 相等 unspecified自定义 -->
+            <enum name="wrap_content" value="-1"/>
+            <enum name="equality" value="1"/>
+            <enum name="unspecified" value="2"/>
+        </attr>
+        <attr name="sicdv_minute_time_text" format="string"/>
+        <attr name="sicdv_second_time_text" format="string"/>
+        <attr name="sicdv_margin_left" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="CircleViewByImage">
+        <attr name="foreground" format="reference" />
+        <attr name="background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ChouRenView">
+        <attr name="crv_plus_width" format="dimension"/>
+        <attr name="crv_plus_height" format="dimension"/>
+        <attr name="crv_plus_text_color" format="color"/>
+        <attr name="crv_minus_width" format="dimension"/>
+        <attr name="crv_minus_height" format="dimension"/>
+        <attr name="crv_minus_text_color" format="color"/>
+        <attr name="crv_middle_height" format="dimension"/>
+        <attr name="crv_middle_width" format="dimension"/>
+        <attr name="crv_middle_text_color" format="color"/>
+        <attr name="crv_border_color" format="color"/>
+        <attr name="crv_border_radius" format="dimension"/>
+        <attr name="crv_border_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="StickyLinearLayout_Layout" tools:ignore="ResourceName">
+        <attr name="isSticky" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScoreProportionView">
+        <attr name="spv_one_progress_color" format="color"/>
+        <attr name="spv_two_progress_color" format="color"/>
+        <attr name="spv_three_progress_color" format="color"/>
+        <attr name="spv_four_progress_color" format="color"/>
+        <attr name="spv_background_color" format="color"/>
+        <attr name="spv_stroke_width" format="dimension"/>
+        <attr name="spv_max_value" format="integer"/>
+    </declare-styleable>
+</resources>

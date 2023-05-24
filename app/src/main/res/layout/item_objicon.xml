@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="6dp"
+    android:background="@drawable/gradient4"
+    android:layout_height="140dp">
+    <TextView
+        android:id="@+id/tv_name"
+        android:textColor="@color/green0"
+        android:text="name"
+        android:layout_margin="3dp"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/coin" />
+
+
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="wrap_content"
+        android:text="价格：200金币"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:textColor="@color/green0"
+        android:textSize="14dp" />
+</LinearLayout>

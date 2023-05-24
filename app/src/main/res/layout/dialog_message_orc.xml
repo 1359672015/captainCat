@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.alpha.QMUIAlphaConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="92dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:gravity="center"
+        android:text="提示文本框标题提示文本框标题"
+        android:textColor="@color/text4"
+        android:textSize="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="提示文本框内容提示文本框内容提示文本框内容提示文本框内容提示文本框内容提示文本框内容提示文本框内容"
+        android:textColor="@color/text4"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaLinearLayout
+        android:id="@+id/QMUIAlphaLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:qmui_shadowAlpha="0.8"
+        app:qmui_shadowElevation="9dp">
+
+    </com.qmuiteam.qmui.alpha.QMUIAlphaLinearLayout>
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="取消"
+        android:layout_margin="24dp"
+        android:textColor="@color/text5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_content"
+        app:qmui_backgroundColor="@color/yellow5"
+        app:qmui_borderColor="@color/green6"
+        app:qmui_borderWidth="5dp"
+        app:qmui_radius="6dp" />
+
+    <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+        android:id="@+id/btn_confirm"
+        android:layout_width="95dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="36dp"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/text5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_cancel"
+        app:qmui_backgroundColor="@color/blue0"
+        app:qmui_borderColor="@color/white0"
+        app:qmui_borderWidth="5dp"
+        app:qmui_radius="6dp" />
+</com.qmuiteam.qmui.alpha.QMUIAlphaConstraintLayout>

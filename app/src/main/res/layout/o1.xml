@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+<ProgressBar
+    android:maxHeight="3dp"
+    android:minHeight="3dp"
+    android:id="@+id/blood"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+        android:src="@drawable/orc_soldier" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/tvHurt"
+ android:visibility="gone"
+       android:textStyle="bold"
+        android:text="- 99"
+        android:textColor="#AD1457"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

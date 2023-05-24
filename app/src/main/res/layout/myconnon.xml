@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="52dp"
+    android:rotation="0"
+    android:id="@+id/mycat"
+    android:background="@drawable/aa_gradient1"
+    android:gravity="center"
+    android:layout_height="80dp">
+    <TextView
+        android:id="@+id/sword"
+        android:gravity="center"
+        android:text="🗡"
+        android:rotation="135"
+        android:textSize="26dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:layout_width="40dp"
+            android:layout_height="30dp">
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/ivElf"
+                android:layout_width="12dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/elf_apple" />
+            <ImageView
+                android:id="@+id/ivCaptain"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/cat3" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/boat"
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/pic_boat_yellow" />
+    </RelativeLayout>
+
+</LinearLayout>

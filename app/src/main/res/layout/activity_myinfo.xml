@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#7DB2CA"
+    android:id="@+id/ll_all"
+    android:layout_height="match_parent"
+    tools:context=".Ui.Activity.MyinfoActivity">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@color/text1"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:src="@drawable/back_menu"
+            android:layout_width="40dp"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="个人信息"
+            android:textColor="@color/grey4"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+<LinearLayout
+    android:background="@color/button2"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/cat_tom"
+        android:layout_margin="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/tv_name"
+        android:text="昵称:璀寒\n等级:10\n账号:123456"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <EditText
+        android:maxLines="1"
+        android:maxLength="15"
+        android:visibility="gone"
+        android:textSize="20dp"
+        android:id="@+id/et_name"
+        android:text="璀寒"
+        android:layout_margin="10dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+<TextView
+    android:background="@color/button2"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:padding = "10dp"
+    android:text="大家好，我是林梓炜,我来自广东"
+    android:id="@+id/tv_introduce"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"/>
+    <EditText
+        android:maxLines="3"
+        android:maxLength="50"
+        android:visibility="gone"
+        android:background="@color/green4"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜大家好，我是林梓炜"
+        android:id="@+id/et_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="技能槽数量：4\n生命值等级: 10\n速度等级: 5"
+        android:id="@+id/tv_fight_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="#334257"
+        android:text="注册时间:2022-4-13"
+        android:id="@+id/tv_register_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

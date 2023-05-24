@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/iv_icon"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:src="@drawable/diamond"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/text2"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <View
+        android:background="@drawable/gradient_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

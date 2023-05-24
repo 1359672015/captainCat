@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="70dp"
+    android:background="@color/blue2"
+    android:layout_marginBottom="70dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="@color/text2"
+            android:gravity="center"
+            android:text="卡托船长"
+            android:id="@+id/title1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:id="@+id/sc_content"
+        android:visibility="visible"
+        android:layout_height="350dp"
+        android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/content"
+        android:textColor="@color/text2"
+        android:text="卡托杀死了奥克女王，敌人基地必将拉响警报。要想成功潜入敌人基地中心，必须把所有发现自己的奥克士兵将都消灭。卡托杀死了奥克女王，敌人基地必将拉响警报。要想成功潜入敌人基地中心，必须把所有发现自己的奥克士兵将都消灭。"
+        android:textSize="19dp"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </ScrollView>
+    <View
+        android:background="#68572D"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <TextView
+
+        android:id="@+id/go"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="进入战斗"
+        android:textColor="@color/text2"
+        android:textSize="29dp" />
+</LinearLayout>

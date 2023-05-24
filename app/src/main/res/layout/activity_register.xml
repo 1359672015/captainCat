@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/jupiter"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Ui.Activity.RegisterActivity">
+
+<LinearLayout
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="昵称*"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="  请输入游戏昵称"
+        android:maxLength="15"
+        android:textColorHint="@color/white2"
+        android:textSize="21dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:background="@drawable/aa_gradient1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="账号*"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/et_account"
+            android:hint="  请设置您的账号"
+            android:maxLength="15"
+            android:textColorHint="@color/white2"
+            android:textSize="21dp"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/aa_gradient1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="密码*"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/et_pw1"
+            android:hint="  请输入您的密码"
+            android:maxLength="15"
+            android:textColorHint="@color/white2"
+            android:textSize="21dp"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:background="@drawable/aa_gradient1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:text="确认密码*"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+        <EditText
+            android:id="@+id/et_pw2"
+            android:hint="  请确认密码"
+            android:maxLength="15"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white2"
+            android:textSize="21dp"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@drawable/aa_gradient1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="邮箱 "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/et_email"
+            android:hint="  输入邮箱用于找回密码"
+            android:maxLength="30"
+            android:textColorHint="@color/white2"
+            android:textSize="21dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:background="@drawable/aa_gradient1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="简介 "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/et_introduce"
+            android:hint="简单介绍一下自己"
+            android:maxLength="50"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white2"
+            android:textSize="21dp"
+            android:background="@drawable/aa_gradient1"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_margin="15dp"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:text="注册"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:background="@drawable/gradient_round1"/>
+</LinearLayout>
